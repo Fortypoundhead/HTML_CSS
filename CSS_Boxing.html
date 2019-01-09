@@ -1,0 +1,214 @@
+<html>
+    <head>
+        <style>
+body, html
+{
+    font-family:arial,sans-serif;
+    background-color:#fff;
+    color:#444;
+    margin:0 auto;
+    padding:0;
+}
+
+/* === top nav === */
+
+ul.topnav 
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #444;
+    border: 1px solid #e7e7e7;
+}
+ 
+ul.topnav li 
+{
+    float: left;
+}
+
+ul.topnav li a 
+{
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) 
+{
+    background-color: #f0f0f0;
+    transition: background-color .2s;
+    color:#444;
+}
+
+ul.topnav li a.active 
+{
+    background-color: #f0f0f0;
+    color:#444;
+}
+
+ul.topnav li.right 
+{
+    float: right;
+}
+
+/* === box layout === */
+
+* 
+{
+  box-sizing: border-box;
+}
+.box100
+{
+  float: left;
+  width: 100%; 
+  padding: 1em;
+}
+.box75
+{
+  float: left;
+  width: 75%; 
+  padding: 1em;
+}
+.box66
+{
+  float: left;
+  width: 66.66%; 
+  padding: 1em;
+}
+.box50
+{
+  float: left;
+  width: 50%; /* two boxes */
+  padding: 1em;
+}
+.box33
+{
+  float: left;
+  width: 33.33%; /* three boxes  */
+  padding: 1em;
+}
+.box25
+{
+  float: left;
+  width: 25%; /* four boxes */
+  padding: 1em;
+}
+
+.box25,.box50,.box75,.box100,.box33,.box66
+{
+    background-color:#f5f0f0;
+    border:1px solid #444;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+        </style>
+    </head>
+
+    <body>
+    
+        <ul class="topnav">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Forums</a></li>
+            <li><a href="#">Tools</a></li>
+            <li><a href="#">Links</a></li>
+            <li><a href="#">Login</a></li>
+        </ul>
+        
+        <div class="box100">
+            <p>width=100%</p>
+        </div>
+        
+        <div class="clearfix"></div>
+        
+        <div class="box75">
+            <p>width=75%</p>
+        </div>
+        
+        <div class="box25">
+            <p>width=25%</p>
+        </div>
+        
+        <div class="clearfix"></div>
+
+        <div class="box50">
+            <p>width=50%</p>
+        </div>
+
+        <div class="box50">
+            <p>width=50%</p>
+        </div>
+
+        <div class="clearfix"></div>        
+
+        <div class="box25">
+            <p>width=25%</p>
+        </div>
+        
+        <div class="box50">
+            <p>width=50%</p>
+        </div>
+
+        <div class="box25">
+            <p>width=25%</p>
+        </div>
+
+        <div class="clearfix"></div>
+
+        <div class="box25">
+            <p>width=25%</p>
+        </div>
+
+        <div class="box25">
+            <p>width=25%</p>
+        </div>        
+
+        <div class="box25">
+            <p>width=25%</p>
+        </div>
+        
+        <div class="box25">
+            <p>width=25%</p>
+        </div>
+        
+        <div class="clearfix"></div>        
+
+        <div class="box33">
+            <p>width=33%</p>
+        </div>
+
+        <div class="box33">
+            <p>width=33%</p>
+        </div>
+
+        <div class="box33">
+            <p>width=33%</p>
+        </div>
+        
+        <div class="clearfix"></div>
+
+        <div class="box33">
+            <p>width=33%</p>
+        </div>
+
+        <div class="box66">
+            <p>width=66%</p>
+        </div>
+
+        <div class="clearfix"></div>        
+
+        <div class="box66">
+            <p>width=66%</p>
+        </div>
+
+        <div class="box33">
+            <p>width=33%</p>
+        </div>
+
+    </body>
+</html>
