@@ -65,43 +65,53 @@ ul.topnav li.right
   float: left;
   width: 100%; 
   padding: 1em;
+  background-color:#ff0000;
+  color:#fff;
 }
 .box75
 {
   float: left;
   width: 75%; 
   padding: 1em;
-}
-.box66
-{
-  float: left;
-  width: 66.66%; 
-  padding: 1em;
+  background-color:#3cb371;
 }
 .box50
 {
   float: left;
   width: 50%; /* two boxes */
   padding: 1em;
-}
-.box33
-{
-  float: left;
-  width: 33.33%; /* three boxes  */
-  padding: 1em;
+  background-color:#ffa500;
 }
 .box25
 {
   float: left;
   width: 25%; /* four boxes */
   padding: 1em;
+  background-color:#0000ff;
+  color:#fff;
+}
+
+.box66
+{
+  float: left;
+  width: 66.66%; 
+  padding: 1em;
+  background-color:#6a5acd;
+  color:#fff;
+}
+.box33
+{
+  float: left;
+  width: 33.33%; /* three boxes  */
+  padding: 1em;
+  background-color:#ee82ee;
 }
 
 .box25,.box50,.box75,.box100,.box33,.box66
 {
-    background-color:#f5f0f0;
     border:1px solid #444;
 }
+
 .clearfix::after {
   content: "";
   clear: both;
@@ -133,6 +143,16 @@ ul.topnav li.right
         <div class="box25">
             <p>width=25%</p>
         </div>
+
+        <div class="clearfix"></div>
+
+        <div class="box25">
+            <p>width=25%</p>
+        </div>
+
+        <div class="box75">
+            <p>width=75%</p>
+        </div>
         
         <div class="clearfix"></div>
 
@@ -156,6 +176,34 @@ ul.topnav li.right
 
         <div class="box25">
             <p>width=25%</p>
+        </div>
+
+        <div class="clearfix"></div>
+
+        <div class="box50">
+            <p>width=50%</p>
+        </div>
+
+        <div class="box25">
+            <p>width=25%</p>
+        </div>
+
+        <div class="box25">
+            <p>width=25%</p>
+        </div>
+
+        <div class="clearfix"></div>
+
+        <div class="box25">
+            <p>width=25%</p>
+        </div>
+
+        <div class="box25">
+            <p>width=25%</p>
+        </div>
+
+        <div class="box50">
+            <p>width=50%</p>
         </div>
 
         <div class="clearfix"></div>
