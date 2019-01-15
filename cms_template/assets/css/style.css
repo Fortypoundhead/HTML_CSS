@@ -1,0 +1,131 @@
+body,html
+{
+    margin: 0 auto;
+    padding:0;
+    font-family:arial,sans-serif;
+    background-color:#fff;
+    color:#444;
+    line-height:1.5em;
+}
+#footer
+{
+    float:none;
+    clear:both;
+    margin:1em 0 0 0 auto;
+    padding:1em;
+    width:100%;
+    background-color:#444;
+    color:#fff;
+}    
+/* =======================================================
+   === navigation
+*/
+ul.topnav 
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #444;
+}
+ul.topnav li 
+{
+    float: left;
+}
+ul.topnav li a 
+{
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+ul.topnav li a:hover:not(.active) 
+{
+    background-color: #fff;
+    color:#444;
+}
+ul.topnav li.right 
+{
+    float: right;
+}
+
+/* =======================================================
+   === forms
+*/
+.genform
+{
+    margin:1em;
+    padding:1em;
+    max-width:600px;
+    background-color:#f0f0f0;
+    border:1px #444 solid;
+    border-radius: 1em;
+}
+
+
+/* =======================================================
+   === box layout
+*/
+
+* 
+{
+    box-sizing: border-box;
+}
+.box100
+{
+    float: left;
+    width: 100%;   
+}
+.box75
+{
+    float: left;
+    width: 75%; 
+}
+.box50
+{
+    float: left;
+    width: 50%; 
+}
+.box25
+{
+    float: left;
+    width: 25%; 
+}
+.box66
+{
+    float: left;
+    width: 66.66%; 
+}
+.box33
+{
+    float: left;
+    width: 33.33%; 
+}
+.box25,.box50,.box75,.box100,.box33,.box66
+{
+    padding: 1em;
+    margin:0;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+@media screen and (max-width: 600px)
+{
+    ul.topnav li.right, 
+    ul.topnav li 
+    {
+        float: none;
+    }
+
+    .box75,.box50,.box25,.box33,.box66
+    {
+        float: none;
+        width: 100%; 
+        clear:both;
+        padding: .5em;
+    }        
+}
