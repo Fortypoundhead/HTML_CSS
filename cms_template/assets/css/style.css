@@ -55,14 +55,204 @@ ul.topnav li.right
 */
 .genform
 {
-    margin:1em;
+    margin:1em auto;
     padding:1em;
+    width:100%;
     max-width:600px;
-    background-color:#f0f0f0;
-    border:1px #444 solid;
-    border-radius: 1em;
+    background-color:#f5f5f5;
+    border:1px #c0c0c0 solid;
+
+}
+.genform label
+{
+    float:left;
+    width:30%;
+    margin:0;
+}
+.genform input[type=text], .genform input[type=password], .genform select, .genform textarea
+{
+    border:1px #c0c0c0 solid;
+    padding:.25em;
+    margin:.5em 0 .5em 0;
+    font-size:1em;
+    line-height:1em;
+    width:70%;
+}
+.genform fieldset
+{
+    margin:.5em 0 .5em 0;
+    padding:.25em;
 }
 
+.genform input[type=submit],.genform button
+{
+    border:1px #c0c0c0 solid;
+    padding:.5em;
+    margin:.5em 0 .5em .5em;
+    font-size:1em;
+    line-height:1em;
+    float:right;
+}
+
+.searchfrm
+{
+    width:100%;
+    max-width:600px;
+    margin:0 auto;
+    text-align:center;
+    font-size:1em;
+    line-height:1em;
+}
+.searchbtn 
+{
+    background-color:#f5f5f5;
+    border:1px #c0c0c0 solid;
+    padding:.75em;
+    width:15%;
+    margin:0 auto;
+    font-size:1em;
+    line-height:1em;
+    
+}
+.searchbox 
+{
+    background: #fff;
+    padding:10px;
+    width:80%;
+    margin:0 auto;
+    border:1px #c0c0c0 solid;
+    font-size:1em;
+    line-height:1em;
+}
+
+/* =======================================================
+   === button links
+*/
+
+.btnsmlblue,.btnsmlred,.btnsmlgreen,.btnsmlyellow,.btnsmlpurple,.btnsmlorange,.btnsmlblack,.btnsmlwhite,.btnmedblue,.btnmedred,.btnmedgreen,.btnmedyellow,.btnmedpurple,.btnmedorange,.btnmedblack,.btnmedwhite,.btnlrgblue,.btnlrgred,.btnlrggreen,.btnlrgyellow,.btnlrgpurple,.btnlrgorange,.btnlrgblack,.btnlrgwhite,.btnjumblue,.btnjumred,.btnjumgreen,.btnjumyellow,.btnjumpurple,.btnjumorange,.btnjumblack,.btnjumwhite
+{
+    text-align:center;
+    text-decoration:none;
+    margin:.5em;
+}    
+
+.btnsmlblue,.btnsmlred,.btnsmlgreen,.btnsmlyellow,.btnsmlpurple,.btnsmlorange,.btnsmlblack,.btnsmlwhite
+{
+    padding:.25em;
+    font-variant: small-caps;
+    font-size:.75em;
+    line-height:.75em;
+    font-weight:bold;
+}
+.btnmedblue,.btnmedred,.btnmedgreen,.btnmedyellow,.btnmedpurple,.btnmedorange,.btnmedblack,.btnmedwhite
+{
+    padding:.5em;
+    font-size:1em;
+    line-height:1em;
+}
+.btnlrgblue,.btnlrgred,.btnlrggreen,.btnlrgyellow,.btnlrgpurple,.btnlrgorange,.btnlrgblack,.btnlrgwhite
+{
+    padding:1em;
+    font-size:1.25em;
+    line-height:1.25em;
+}
+
+.btnjumblue,.btnjumred,.btnjumgreen,.btnjumyellow,.btnjumpurple,.btnjumorange,.btnjumblack,.btnjumwhite
+{
+    padding:1.25em;
+    font-size:1.5em;
+    line-height:1.5em;
+    
+}
+.btnsmlblue,.btnmedblue,.btnlrgblue,.btnjumblue
+{
+    background-color:#0000aa;
+    color:#fff;
+}
+.btnsmlblue:hover,.btnmedblue:hover,.btnlrgblue:hover,.btnjumblue:hover
+{
+    border:1px #0000aa solid;
+    background-color:#fff;
+    color:#0000aa;
+}
+.btnsmlred,.btnmedred,.btnlrgred,.btnjumred
+{
+    background-color:#aa0000;
+    color:#fff;
+}
+.btnsmlred:hover,.btnmedred:hover,.btnlrgred:hover,.btnjumred:hover
+{
+    border:1px #aa0000 solid;
+    background-color:#fff;
+    color:#aa0000;
+}
+.btnsmlgreen,.btnmedgreen,.btnlrggreen,.btnjumgreen
+{
+    background-color:#00aa00;
+    color:#fff;
+}
+.btnsmlgreen:hover,.btnmedgreen:hover,.btnlrggreen:hover,.btnjumgreen:hover
+{
+    border:1px #00aa00 solid;
+    background-color:#fff;
+    color:#00aa00;
+}
+.btnsmlyellow,.btnmedyellow,.btnlrgyellow,.btnjumyellow
+{
+    background-color:#ffff00;
+    color:#444;
+}
+.btnsmlyellow:hover,.btnmedyellow:hover,.btnlrgyellow:hover,.btnjumyellow:hover
+{
+    border:1px #444 solid;
+    background-color:#444;
+    color:#ffff00;
+}
+.btnsmlpurple,.btnmedpurple,.btnlrgpurple,.btnjumpurple
+{
+    background-color:#800080;
+    color:#fff;
+}
+.btnsmlpurple:hover,.btnmedpurple:hover,.btnlrgpurple:hover,.btnjumpurple:hover
+{
+    border:1px #800080 solid;
+    background-color:#fff;
+    color:#800080;
+}
+.btnsmlorange,.btnmedorange,.btnlrgorange,.btnjumorange
+{
+    background-color:#ffa500;
+    color:#fff;
+}
+.btnsmlorange:hover,.btnmedorange:hover,.btnlrgorange:hover,.btnjumorange:hover
+{
+    border:1px #ffa500 solid;
+    background-color:#fff;
+    color:#ffa500;
+}
+.btnsmlblack,.btnmedblack,.btnlrgblack,.btnjumblack
+{
+    background-color:#000;
+    color:#fff;
+}
+.btnsmlblack:hover,.btnmedblack:hover,.btnlrgblack:hover,.btnjumblack:hover
+{
+    border:1px #000 solid;
+    background-color:#fff;
+    color:#000;
+}
+.btnsmlwhite,.btnmedwhite,.btnlrgwhite,.btnjumwhite
+{
+    background-color:#fff;
+    color:#000;
+    border:1px #000 solid;
+}
+.btnsmlwhite:hover,.btnmedwhite:hover,.btnlrgwhite:hover,.btnjumwhite:hover
+{
+    border:1px #000 solid;
+    background-color:#000;
+    color:#fff;
+}
 
 /* =======================================================
    === box layout
@@ -74,36 +264,31 @@ ul.topnav li.right
 }
 .box100
 {
-    float: left;
     width: 100%;   
 }
 .box75
 {
-    float: left;
     width: 75%; 
 }
 .box50
 {
-    float: left;
     width: 50%; 
 }
 .box25
 {
-    float: left;
     width: 25%; 
 }
 .box66
 {
-    float: left;
     width: 66.66%; 
 }
 .box33
 {
-    float: left;
     width: 33.33%; 
 }
 .box25,.box50,.box75,.box100,.box33,.box66
 {
+    float: left;
     padding: 1em;
     margin:0;
 }
@@ -113,7 +298,7 @@ ul.topnav li.right
     display: table;
 }
 
-@media screen and (max-width: 600px)
+@media screen and (max-width: 800px)
 {
     ul.topnav li.right, 
     ul.topnav li 
@@ -128,4 +313,11 @@ ul.topnav li.right
         clear:both;
         padding: .5em;
     }        
+    .genform
+    {
+        max-width:100%;
+        width:100%;
+        margin:0;
+        padding:.5em;
+    }
 }
