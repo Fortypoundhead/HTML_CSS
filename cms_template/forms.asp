@@ -1,7 +1,5 @@
 <!--#include file="assets/includes/inc_header_common.asp"-->
 
-        
-        
         <div class="box50">
 
             <form class="genform" name="demoform" action="#">
@@ -76,9 +74,7 @@
 
                 <div class="clearfix"></div>
                 
-            </form>
-
-            
+            </form>           
         
         </div>
         

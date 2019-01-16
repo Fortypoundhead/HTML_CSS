@@ -62,7 +62,7 @@
 
         <div class="box25">
                 <h2>box25</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac dictum nisl. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vel aliquet quam. Mauris vel tristique turpis. Nam accumsan congue justo sed laoreet. Quisque id placerat nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi consectetur metus erat, sit amet pretium nunc egestas nec. Praesent vel odio ligula. Etiam erat odio, molestie ut molestie sit amet, pharetra sed ex. Integer sit amet condimentum libero, sit amet pellentesque enim. Praesent nec odio in ex rhoncus posuere. Aliquam a porta lacus, sed dignissim nisl. Nunc vitae ornare ipsum. </p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac dictum nisl. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vel aliquet quam. Mauris vel tristique turpis. Nam accumsan congue justo sed laoreet. Quisque id placerat nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi consectetur metus erat, sit amet pretium nunc egestas nec. Praesent vel odio ligula. Etiam erat odio, molestie ut molestie sit amet, pharetra sed ex. Integer sit amet condimentum libero, sit amet pellentesque enim. Praesent nec odio in ex rhoncus posuere. Aliquam a porta lacus, sed dignissim nisl. Nunc vitae ornare ipsum. </p>
         </div>
         <div class="box75">
                 <h2>box75</h2>
