@@ -613,74 +613,82 @@
 
         <div class="clearfix"></div>
 
+        <div class="box100">
+            <h2>Education</h2>
 
 
 
+            <p>Some of the finer educational institutions I've attended are listed below.</p>
 
+            <ul>
+                <li>Marine Corps Institute, Camp Pendleton, CA</li>
+                <li>SQLSoft, Bellevue, WA</li>
+                <li>Productivity Point International, Spokane, WA</li>
+                <li>Business Computer Training Institute</li>
+            </ul>
 
+            <p>Here are a few of my certifications.  I am always striving to expand my horizons, and as such, this list will grow as time passes.</p>
 
+            <ul>
+                <li>Microsoft Certified Professional + Internet (MCP+I)</li>
+                <li>Microsoft Certified Systems Engineer (MCSE)</li>
+                <li>COMPTIA A+ Certified Hardware Technician (A+)</li>
+                <li>COMPTIA Network+ Authorized Technician (Network+)</li>
+                <li>Compaq Authorized Service Engineer (ASE)</li>
+                <li>Hewlett Packard Authorized Printer Technician</li>
+                <li>Tally Authorized Printer Technician</li>
+                <li>Printronix Authorized Printer Technician</li>
+                <li>Okidata Authorized Printer Technician</li>
+            </ul>
+            <p>Current TS/SCI, with Polygraph</p>
 
+        </div>
 
+        <div class="clearfix"></div>
 
-<h2>Education</h2>
+        <div class="box100">
 
+            <h2>Testimonials</h2>
+            <p>I hate to toot my own horn.  So here are what some other folks are saying about me.</p>
+        
+        </div>
 
+        <div class="clearfix"></div>
 
-<p>Some of the finer educational institutions I've attended are listed below.</p>
+        <div class="box25">
 
-<ul>
-<li>Marine Corps Institute, Camp Pendleton, CA</li>
-<li>SQLSoft, Bellevue, WA</li>
-<li>Productivity Point International, Spokane, WA</li>
-<li>Business Computer Training Institute</li>
-</ul>
-<p>Here are a few of my certifications.  I am always striving to expand my horizons, and as such, this list will grow as time passes.</p>
+            <blockquote>
+            Derek was our 'go-to' Systems Engineer for all Microsoft platforms. His in-depth knowledge of MS Operating Systems and analytical skills kept our regional systems operational. Derek was operational team lead for Naval Base Kitsap, Bangor but his influence extended to all Puget Sound, including Oak Harbor, Everett, Bremerton and Fort Lewis. He remained an integral team member throughout his tenure and after departing I monitored his progress and happiness at his new company because I wanted him back on our team. His value cannot be understated.
+            </blockquote>
+            <cite><b>Daryn Bartlett</b><br />Information Security at NAVSEA, NUWC Keyport</cite>
 
-<ul>
-<li>Microsoft Certified Professional + Internet (MCP+I)</li>
-<li>Microsoft Certified Systems Engineer (MCSE)</li>
-<li>COMPTIA A+ Certified Hardware Technician (A+)</li>
-<li>COMPTIA Network+ Authorized Technician (Network+)</li>
-<li>Compaq Authorized Service Engineer (ASE)</li>
-<li>Hewlett Packard Authorized Printer Technician</li>
-<li>Tally Authorized Printer Technician</li>
-<li>Printronix Authorized Printer Technician</li>
-<li>Okidata Authorized Printer Technician</li>
-</ul>
-<p>Current TS/SCI, with Polygraph</p>
-<p>&nbsp;</p>
+        </div>
 
+        <div class="box25">
 
+            <blockquote>
+            Derek is a top notch Systems Engineer with a very broad and truly amazing skillset. Derek's strengths lie in so many areas it's astounding from general systems administration, application development, exchange, virtual environments, etc. He would be an asset to any organization in need of a highly skilled senior systems engineer. His cross functional skills will make him successful in any senior technical position for any company that is fortunate to have him.
+            </blockquote>
+            <cite><b>Erik Johnson</b><br />Infrastructure Architect</cite>
 
+        </div>
 
+        <div class="box25">
+            <blockquote>
+            Derek is always motivated to get things done, and has a depth of relevant experience to help steer decisions in the right path. His input has been critical in developing and implementing our project, and look forward to working with him more in the future.
+            </blockquote>
+            <cite><b>Nick Hume</b><br />Principal Program Manager</cite>
+        </div>
 
-<h2>Testimonials</h2>
+        <div class="box25">
+            <blockquote>
+            You a very strong technical background and you understand our various architectures very well. That did not come to you overnight. You developed that over the span of your career and that makes you a critical team member. I also observed your take charge/take ownership attitude. That was critical to our work being completed properly and timely. Your knowledge of the environment and the rules and regulations that we were compelled to follow kept us in our lane. I expect our work will be useful for many years to the customer.        
+            </blockquote>
+            <cite><b>John Dunleavy</b><br />Senior Consultant, Cyber</cite>
+        </div>
 
+        <div class="clearfix"></div>
 
-<p>I hate to toot my own horn.  So here are what some other folks are saying about me.</p>
-<p>&nbsp;</p>
-<blockquote>
-Derek was our 'go-to' Systems Engineer for all Microsoft platforms. His in-depth knowledge of MS Operating Systems and analytical skills kept our regional systems operational. Derek was operational team lead for Naval Base Kitsap, Bangor but his influence extended to all Puget Sound, including Oak Harbor, Everett, Bremerton and Fort Lewis. He remained an integral team member throughout his tenure and after departing I monitored his progress and happiness at his new company because I wanted him back on our team. His value cannot be understated.
-<cite><b>Daryn Bartlett</b><br />Information Security at NAVSEA, NUWC Keyport</cite>
-</blockquote>
-<blockquote>
-Derek is a top notch Systems Engineer with a very broad and truly amazing skillset. Derek's strengths lie in so many areas it's astounding from general systems administration, application development, exchange, virtual environments, etc. He would be an asset to any organization in need of a highly skilled senior systems engineer. His cross functional skills will make him successful in any senior technical position for any company that is fortunate to have him.
-<cite><b>Erik Johnson</b><br />Infrastructure Architect</cite>
-</blockquote>
-
-
-
-
-
-
-
-<div id="header">
-<h1>Derek Wirch</h1>
-
-<div id="socials">
-<a href="http://www.facebook.com/derek.wirch" target="_blank" title="view my facebook page"><img src="img/png/facebook_48.png" alt="Facebook" title="Facebook" class="vtip"/></a>
-<a href="http://twitter.com/fortypoundhead" target="_blank" title="check out my twitter goodness"><img src="img/png/twitter_48.png" alt="Twitter" title="Twitter" class="vtip"/></a>
-<a href="https://www.linkedin.com/in/derekwirch" target="_blank" title="connect with me on LinkedIn.com"><img src="img/png/linkedIn_48.png" alt="LinkedIn" title="LinkedIn" class="vtip"/></a>
-
+        <p>&nbsp;</p>
 
 <!--#include file="assets/includes/inc_footer_common.asp"-->
