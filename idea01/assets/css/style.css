@@ -1,0 +1,253 @@
+body,html
+{
+    margin: 0 auto;
+    padding:0;
+    font-family:arial,sans-serif;
+    background-color:#fff;
+    color:#444;
+    line-height:1.5em;
+}
+#footer
+{
+    float:none;
+    clear:both;
+    margin:1em 0 0 0 auto;
+    padding:1em;
+    width:100%;
+    background-color:#444;
+    color:#fff;
+}    
+/* =======================================================
+   === callout boxes
+*/
+.info,.success,.warning,.error,.validation{
+    margin:10px 0;
+    padding:12px
+}
+.info{
+    color:#00529B;
+    background-color:#BDE5F8
+}
+.success{
+    color:#4F8A10;
+    background-color:#DFF2BF
+}
+.warning{
+    color:#9F6000;
+    background-color:#FEEFB3
+}
+.error{
+    color:#D8000C;
+    background-color:#FFBABA
+}
+/* =======================================================
+   === navigation
+*/
+ul.topnav 
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #444;
+}
+ul.topnav li 
+{
+    float: left;
+}
+ul.topnav li a 
+{
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+ul.topnav li a:hover:not(.active) 
+{
+    background-color: #fff;
+    color:#444;
+}
+ul.topnav li.right 
+{
+    float: right;
+}
+
+/* =======================================================
+   === forms
+*/
+.genform
+{
+    margin:1em auto;
+    padding:1em;
+    width:100%;
+    max-width:600px;
+    background-color:#f5f5f5;
+    border:1px #c0c0c0 solid;
+
+}
+.genform label
+{
+    float:left;
+    width:30%;
+    margin:0;
+}
+.genform input[type=text], .genform input[type=password], .genform select, .genform textarea
+{
+    border:1px #c0c0c0 solid;
+    padding:.25em;
+    margin:.5em 0 .5em 0;
+    font-size:1em;
+    line-height:1em;
+    width:70%;
+}
+.genform fieldset
+{
+    margin:.5em 0 .5em 0;
+    padding:.25em;
+}
+
+.genform input[type=submit],.genform button
+{
+    border:1px #c0c0c0 solid;
+    padding:.5em;
+    margin:.5em 0 .5em .5em;
+    font-size:1em;
+    line-height:1em;
+    float:right;
+}
+/* =======================================================
+   === searchbox
+*/
+.searchfrm
+{
+    width:100%;
+    max-width:600px;
+    margin:.5em auto;
+    text-align:center;
+    font-size:1em;
+    line-height:1em;
+}
+.searchbtn 
+{
+    background-color:#f5f5f5;
+    border:1px #c0c0c0 solid;
+    padding:.75em;
+    width:15%;
+    margin:0 auto;
+    font-size:1em;
+    line-height:1em;
+}
+.searchbtn:hover
+{
+    background-color:#444;
+    color:#f5f5f5;
+}
+.searchbox 
+{
+    background: #fff;
+    padding:10px;
+    width:80%;
+    margin:0 auto;
+    border:1px #c0c0c0 solid;
+    font-size:1em;
+    line-height:1em;
+}
+
+/* =======================================================
+   === button links
+*/
+
+.btnlnksml,.btnlnknrm
+{
+    background-color:#f5f5f5;
+    color:#444;
+    border:1px #c0c0c0 solid;
+    text-align:center;
+    text-decoration:none;
+    margin:.25em;
+}
+.btnlnksml:hover,.btnlnknrm:hover
+{
+    background-color:#444;
+    color:#f5f5f5;
+}
+.btnlnksml
+{
+        padding:.25em .5em .25em .5em;
+        text-transform: uppercase;
+        font-weight:bold;
+        font-size:smaller;
+}
+.btnlnknrm
+{
+    padding:.75em;
+}
+
+/* =======================================================
+   === box layout
+*/
+
+* 
+{
+    box-sizing: border-box;
+}
+.box100
+{
+    width: 100%;   
+}
+.box75
+{
+    width: 75%; 
+}
+.box50
+{
+    width: 50%; 
+}
+.box25
+{
+    width: 25%; 
+}
+.box66
+{
+    width: 66.66%; 
+}
+.box33
+{
+    width: 33.33%; 
+}
+.box25,.box50,.box75,.box100,.box33,.box66
+{
+    float: left;
+    padding: 1em;
+    margin:0;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+@media screen and (max-width: 800px)
+{
+    ul.topnav li.right, 
+    ul.topnav li 
+    {
+        float: none;
+    }
+
+    .box75,.box50,.box25,.box33,.box66
+    {
+        float: none;
+        width: 100%; 
+        clear:both;
+        padding: .5em;
+    }        
+    .genform
+    {
+        max-width:100%;
+        width:100%;
+        margin:0;
+        padding:.5em;
+    }
+}
