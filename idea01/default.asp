@@ -64,7 +64,7 @@
 
         <div class="box50">
             <h2 style="width:100%;text-align:center">Quick Links</h2>
-            <ul style="margin:0 auto;text-align:center;">
+            <ul class="flist">
                 <li><a href="#">Burn Permits</a></li>
                 <li><a href="#">Commitment Books (Alpha)</a></li>
                 <li><a href="#">Commitment Books (Map & Lot)</a></li>
@@ -82,16 +82,16 @@
 
         <div class="box50">
             <h2 style="width:100%;text-align:center">Departments</h2>
-            <ul style="margin:0 auto;text-align:center;">
-                <li>Code Enforcement</li>
-                <li>Fire Department</li>
-                <li>Library</li>
-                <li>Municipal Airport</li>
-                <li>Police Department</li>
-                <li>Public Works</li>
-                <li>Recreation</li>
-                <li>Town Office</li>
-                <li>Transfer Station/Recycling Center</li>
+            <ul class="flist">
+                <li><a href="#">Code Enforcement</a></li>
+                <li><a href="#">Fire Department</a></li>
+                <li><a href="#">Library</a></li>
+                <li><a href="#">Municipal Airport</a></li>
+                <li><a href="#">Police Department</a></li>
+                <li><a href="#">Public Works</a></li>
+                <li><a href="#">Recreation</a></li>
+                <li><a href="#">Town Office</a></li>
+                <li><a href="#">Transfer Station/Recycling Center</a></li>
             </ul>
 
         </div>

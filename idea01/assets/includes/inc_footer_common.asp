@@ -1,24 +1,21 @@
         <div id="footer">
             <div class="box33">
-                <ul>
-                    <li><a href="#">privacy policy</a></li>
-                    <li><a href="#">terms of service<//a></li>
-                    <li><a href="#">disclaimer</a></li>
+                <ul class="flist">
+                    <li><a href="<% =CFG_BaseURL %>privacy.asp">privacy policy</a></li>
+                    <li><a href="<% =CFG_BaseURL %>terms.asp">terms of service<//a></li>
+                    <li><a href="<% =CFG_BaseURL %>disclaimer.asp">disclaimer</a></li>
                 </ul>
             </div>
             <div class="box33">
-                <ul>
+                <ul class="flist">
                     <li><a href="#">about</a></li>
                     <li><a href="#">contact us<//a></li>
-                    <li><a href="#">rss feed</a></li>
+
                 </ul>
             </div>
             <div class="box33">
-                <ul>
-                    <li><a href="#">advanced search</a></li>
-                    <li><a href="#">archive</a></li>
-                    <li><a href="#">site stats<//a></li>
-                    <li><a href="#">leaderboard</a></li>
+                <ul class="flist">
+                    <li>&copy; 2019 Town of Greenville, Maine </li>
                 </ul>
             </div>
             <div class="clearfix"></div>
